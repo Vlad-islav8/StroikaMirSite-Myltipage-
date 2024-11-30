@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>building materials</title>
+    <!-- Стили: -->
+    <link rel="stylesheet" href="Styles/main.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container container__header">
+            <nav>
+                <a href="index.html" class="logo-block">
+                    <img src="images/логотип-Лизы2.png" alt="StroykaMir" class="logo">
+
+                    <h3 class="logo-info">СтройкаМир</h3>
+                </a>
+                <div class="burger">
+                    <button id="burger-button" style="width: 32px; height: 32px;">☰</button>
+
+                    <div class="burger-menu">
+                        <ul>
+                            <li><a href="#">Корзина</a></li>
+                            <li><a href="#">Профиль</a></li>
+                            <li><a href="#">Заказы</a></li>
+                            <li><a href="./AboutUs.html">О нас</a></li>
+                            <li><a href="./Catalog.html">Каталог</a></li>
+                            <li><a href="./response.html">Отзывы</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="d5">
+                    <form>
+                        <input type="text" placeholder="Поиск...">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+
+                <ul class="list-nav">
+                    <a href="+7-800-100-65-99"><p>+7-800-100-65-99</p></a>
+                </ul>
+            </nav>
+            <div class="d5 d5-small">
+                <form>
+                    <input type="text" placeholder="Поиск...">
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </div>
+        <!-- Навигация -->
+        <section class="section-1">
+            <div class="container">
+                <nav>
+                    <span>Навигация по сайту:</span>
+                    <ul>
+                        <li><a href="./AboutUs.html">О нас</a></li>
+                        <li><a href="./Catalog.html">Каталог</a></li>
+                        <li><a href="./response.html">Отзывы</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </section>
+    </header>
+
+    <!-- Акции -->
+    <section class="section-5" id="action">
+        <div class="container">
+            <div class="section-5-head-text">
+                <h2>Акции</h2>
+                <button>Все акции ></button>
+            </div>
+            <div class="section-5__grid-cards">
+                <div class="section-5__grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/Action/элит.jpg" alt="элит">
+                    </a>
+                    <div class="grid-cards_ithem-txt">
+                        <h4>Водосточная стистема <i> 'элит'</i> </h4>
+                        <div class="grid-cards_ithem-inf">
+                            <div class="sale">
+                                <h3>1445 ₽</h3>
+                                <h5>1799 ₽</h5>
+                            </div>
+                            <button>в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/Action/цемент.jpg" alt="цемент">
+                    </a>
+                    <div class="grid-cards_ithem-txt">
+                        <h4>Цемент Евроцемент М500 Д0 ЦЕМ I 42,5 50 кг
+                        </h4>
+                        <div class="grid-cards_ithem-inf">
+                            <div class="sale">
+                                <h3>2880 ₽</h3>
+                                <h5>3450 ₽</h5>
+                            </div>
+                            <button>в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/Action/монтажные пены.jpg" alt="Монтажная пена">
+                    </a>
+                    <div class="grid-cards_ithem-txt">
+                        <h4>Монтажные пены разлиных видов</h4>
+                        <div class="grid-cards_ithem-inf">
+                            <div class="sale">
+                                <h3>от 400 ₽</h3>
+                                <h5>от 600 ₽</h5>
+                            </div>
+                            <button>в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/Action/фонарь.jpg" alt="фонарь">
+                    </a>
+                    <div class="grid-cards_ithem-txt">
+                        <h4>Налобный светодиодный фонарь с магнитом</h4>
+                        <div class="grid-cards_ithem-inf">
+                            <div class="sale">
+                                <h3>244 ₽</h3>
+                                <h5>499 ₽ ₽</h5>
+                            </div>
+                            <button>в корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="load-more-wrapper">
+        <button class="load-more-button">Показать еще</button>
+    </div>
+
+    <!-- Популярные товары: -->
+    <section class="section-4" id="popularProduct">
+        <div class="container">
+            <div class="section-4-head-text">
+                <h2>Популярные товары</h2>
+                <button>Все товары ></button>
+            </div>
+            <div class="grid-cards">
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/тачка.png" alt="тачка">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Тачка садовая, 2-х колесная, грузоподъемность 120 кг, объем 65 л// Сибртех 689135 .
+                        </h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>1 411 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/молоток.jpg" alt="молоток">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Рокот Молоток 400гр деревянная рукоятка</h4>
+                        <div class="grid-cards_ithem-text-info">
+
+                            <h3>352 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/саморезы90мм.jpg" alt="саморезы90мм">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Саморез по дереву и гипсокартону 4,2х90 мм желтый в комплекте 1000 штук</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>3 107 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/саморезыУневерс.jpg" alt="саморезыУневерсальные">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Саморезы Стройметиз универсальные 2.5х10, сталь, покрытие - желтый цинк, 25 шт.</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>145 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/вагонка.jpg" alt="вагонка">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Вагонка штиль 12,5х96х3000мм уп.10шт. сорт ав</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>4 978 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/доски.jpg" alt="Трубка">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Пиломатериал из древесины хвойных пород 3000х150х50</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>335 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/кирпичи.jpg" alt="Кнуф">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Кирпич</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>20 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/кирпичСтроительный.jpg" alt="кирпичСтроительный">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>кирпич строительный рифленный</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>30 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/профлист.jpg" alt="профлист">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Профнастил оцинк. С8 0,4 мм </h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>660 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/наборИнструментов.jpg" alt="набор инструментов">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Шуруповерт аккумуляторный, строительный, дрель-шуруповерт, 2 АКБ</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>3 033 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/фосад.jpg" alt="фасад">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>фасадные панели для наружной отделки дома</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>1895 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid-cards_ithem">
+                    <a href="card.html">
+                        <img src="images/PopularProducts/линолиумы.jpg" alt="линолиумы">
+                    </a>
+                    <div class="grid-cards_ithem-text">
+                        <h4>Линолиумы разлиных размеров</h4>
+                        <div class="grid-cards_ithem-text-info">
+                            <h3>353 ₽</h3>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="load-more-wrapper">
+        <button class="load-more-button">Показать еще</button>
+    </div>
+
+    <!-- Популярные бренды -->
+    <section class="section-6" id="PopularBrends">
+        <div class="container">
+            <div class="section-6-head-text">
+                <h2>Популярные бренды</h2>
+                <button>Все бренды ></button>
+            </div>
+            <div class="section-6-grid">
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/bever.png" alt="bever"></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images//brends/braer.png" alt="braer"></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/EuroBlock.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/leonardo.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/lsr.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/mobformat.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/mstera.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/Perfecta.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brends/recke.png" alt=""></a>
+                </div>
+                <div class="section-6-grid-ithem">
+                    <a href="#"><img src="images/brendsImg.png" alt=""></a>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    <div class="load-more-wrapper">
+        <button class="load-more-button">Показать еще</button>
+    </div>
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-nav-bar">
+                <div class="footer-nav-bar-block-1">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="logo-block">
+                                <img src="images/логотип-Лизы2.png" alt="" class="logo">
+                                <h3 class="logo-info-footer">СтройкаМир</h3>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://stroykastore-2044a.web.app/about.html"> <img src="images/mail-Icon.svg"
+                                    alt="">info@stroymir.ru</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://yandex.ru/maps/213/moscow/house/ulitsa_klimashkina_10/Z04YcwBlSUcPQFtvfXt3eXpjbA==/?ll=37.575028%2C55.768608&z=16">
+                                <img src="images/location-icon.svg" alt="">Москва, ул. Камушкина 10</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-nav-bar-block-2">
+                    <ul>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="#">Заказы</a></li>
+                        <li><a href="#">Избранное</a></li>
+                        <li><a href="#">Корзина</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav-bar-block-3">
+                    <ul>
+                        <li><a href="./Catalog.html">Каталог</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Бренды</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav-bar-block-4">
+                    <ul>
+                        <li><a href="#">Стать продавцом</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Документация</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-end">
+                <h5>© СтройМир</h5>
+                <div class="cards-logo">
+                    <img src="images/visa-logo.svg" alt="visa">
+                    <img src="images/mastercard-logo.svg" alt="visa">
+                    <img src="images/mastero-logo.svg" alt="visa">
+                    <img src="images/mir-logo.svg" alt="visa">
+                </div>
+                <h5>Cделано в web shtor</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- Скрипты -->
+<script src="assets/main.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Slider(document.querySelector('.carousel'));
+    });
+</script>
+</html>
